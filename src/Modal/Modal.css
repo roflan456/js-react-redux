@@ -1,0 +1,29 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background: rgb(0,0,0, .5);
+    padding-top: .5 rem;
+}
+
+.modal-body{
+    width:400px;
+    height: 200px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 2px;
+}
+
+.modal-button{
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.loading{
+    margin-left: 5rem;
+}
+
